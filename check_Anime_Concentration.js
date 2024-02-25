@@ -43,7 +43,7 @@
            /*      console.log(wantedFloat) */
 
 
-                for (let dig = 8; dig < 12; dig++) {
+                for (let dig = 8; dig < 11; dig++) {
                     var similarity = 8
                     let ieee32_wanted = getIeee754_32(wantedFloat / (10 ** dig))
                     if (String(ieee32_wanted * 10 ** dig).substr(0, similarity) == wantedFloat) {
