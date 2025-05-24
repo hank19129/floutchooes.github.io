@@ -48,21 +48,30 @@
             <input type="button" value="一键导出可做枪皮" onclick="check_Anime_Concentration(1,'generateAvailabe') "><br>
 
             <div id="autoOut" class="re_div" style="width: 100%;">
-
-                <div class="re_div" style="background: rgb(94, 152, 217); margin-top: 0px;">工业级 <div id="industry"
-                        class="itemsContent"></div>
+                <div class="re_div" style="background: rgb(94, 152, 217); margin-top: 0px;">
+                    工业级 
+                    <input type="button" value="展开工业级" onclick="check_Anime_Concentration(1, 'generateAvailabe', 'industry')">
+                    <div id="industry" class="itemsContent"></div>
                 </div>
-                <div class="re_div" style="background: rgb(75, 105, 255); margin-top: 0px;">军规级 <div id="mil-spec"
-                        class="itemsContent"></div>
+                <div class="re_div" style="background: rgb(75, 105, 255); margin-top: 0px;">
+                    军规级 
+                    <input type="button" value="展开军规级" onclick="check_Anime_Concentration(1, 'generateAvailabe', 'mil-spec')">
+                    <div id="mil-spec" class="itemsContent"></div>
                 </div>
-                <div class="re_div" style="background: rgb(136, 71, 255)"> 受限级 <div id="restricted"
-                        class="itemsContent"></div>
+                <div class="re_div" style="background: rgb(136, 71, 255);">
+                    受限级 
+                    <input type="button" value="展开受限级" onclick="check_Anime_Concentration(1, 'generateAvailabe', 'restricted')">
+                    <div id="restricted" class="itemsContent"></div>
                 </div>
-                <div class="re_div" style="background-color: rgb(211, 44, 230);"> 保密级<div id="classfied"
-                        class="itemsContent"></div>
+                <div class="re_div" style="background-color: rgb(211, 44, 230);">
+                    保密级 
+                    <input type="button" value="展开保密级" onclick="check_Anime_Concentration(1, 'generateAvailabe', 'classfied')">
+                    <div id="classfied" class="itemsContent"></div>
                 </div>
-                <div class="re_div" style="background-color:  rgb(235, 75, 75)"> 隐秘级 <div id="covert"
-                        class="itemsContent"></div>
+                <div class="re_div" style="background-color: rgb(235, 75, 75);">
+                    隐秘级 
+                    <input type="button" value="展开隐秘级" onclick="check_Anime_Concentration(1, 'generateAvailabe', 'covert')">
+                    <div id="covert" class="itemsContent"></div>
                 </div>
             </div>
 
